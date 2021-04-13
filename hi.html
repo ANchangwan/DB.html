@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text</title>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<form name="fo" method="get">
+				<td>학번:<input  type="text" size="15" value=""></td>
+                
+				<td>비밀번호:<input type="password" size="15" value=""></td>
+			</tr>
+		</thead>
+        <tbody>
+			<tr>
+				<td colspan="2">이메일:<input type="email" placeholder="">
+					<form>
+					@<select>
+						<option value="1">선택</option>
+					</select>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>성별:</td>
+				<td align="right">
+					<form>
+						<input type="radio" name="남" value="1">남
+						<input type="radio" name="여" value="2" checked>여
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="background-color: red; height: 20px;"></td>
+			</tr>
+			<tr>
+				<th>대표</th>
+				<th>항목</th>
+				<th>선택사항</th>
+			</tr>
+			<tr>
+				<td>취미:</td>
+				<td>
+					<form>
+						<input type="checkbox" value="1">등산
+						<input type="checkbox" value="2" checked>독서
+						<input type="checkbox" value="3">영화감상
+						<input type="checkbox" value="4">음악감상
+						<input type="checkbox" value="5">프로그래밍
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">개인 정보</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<form>
+						<input type="radio" value="1" checked>공개
+						<input type="radio" value="2">비공개
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">메모</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2">
+					<form>
+						<textarea cols="100" rows="2"></textarea>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#eeffee">
+					<form>
+					파일첨부:<input type="submit" value="파일 선택">선택된 파일 없음
+					</form>
+				</td>
+				<td align="right" bgcolor="pink">*2MB까지 가능</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2" rowspan="2">
+					<form>
+						<input type="button" value="회원가입(submit)">
+					</form>
+				</td>
+			</tr>
+            <tr>
+
+            </tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2" style="background-color: red; height: 20px;"></td>
+			</tr>
+		</tfoot>
+		
+	</table>
+</body>
+</html>
